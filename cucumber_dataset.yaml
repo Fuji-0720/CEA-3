@@ -1,0 +1,6 @@
+train: your_dataset/images/train/
+val: your_dataset/images/val/
+
+nc: 1
+
+names: ['cucumber']
