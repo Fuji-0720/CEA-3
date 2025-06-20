@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO('yolov8n.pt')
+model = YOLO('yolov11n.pt')
 
 results = model.predict(source='path/to/your/image.jpg', conf=0.25)
 
