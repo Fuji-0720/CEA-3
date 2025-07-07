@@ -1,5 +1,5 @@
-train: your_dataset/images/train/
-val: your_dataset/images/val/
+train: 'C:\Users\y0808\train1'
+val: 'C:\Users\y0808\val1'
 
 nc: 1
 
