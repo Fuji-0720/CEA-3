@@ -3,12 +3,12 @@ import cv2
 import numpy as np
 
 # 学習済みきゅうり検出モデルをロード
-model = YOLO('runs/detect/yolov8n_cucumber_detection/weights/best.pt')
+model = YOLO('runs/detect/yolo11n_cucumber_detection/weights/best.pt')
 
 MM_PER_PIXEL = 0.5 # 仮の値。実際の環境で計測・調整が必要
 
 # 画像で推論を実行
-image_path = 'path/to/new_cucumber_image.jpg'
+image_path = r'C:\Users\y0808\train2\IMG_1647.jpg'
 results = model.predict(source=image_path, conf=0.25)
 
 # 結果の処理

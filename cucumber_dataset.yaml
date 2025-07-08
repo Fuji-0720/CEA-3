@@ -1,5 +1,5 @@
-train: 'C:\Users\y0808\train1'
-val: 'C:\Users\y0808\val1'
+train: 'C:\Users\y0808\train'
+val: 'C:\Users\y0808\val'
 
 nc: 1
 
