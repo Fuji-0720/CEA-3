@@ -8,5 +8,6 @@ results = model.train(
     epochs=100,                  # 学習エポック数
     imgsz=640,                   # 画像のサイズ（モデルの入力サイズに合わせる）
     batch=16,                    # バッチサイズ
-    name='yolo11n_cucumber_detection'
+    name='yolo11n_cucumber_detection',
+    device='cuda'
 )
