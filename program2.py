@@ -9,5 +9,4 @@ results = model.train(
     imgsz=640,                   # 画像のサイズ（モデルの入力サイズに合わせる）
     batch=16,                    # バッチサイズ
     name='yolo11n_cucumber_detection',
-    device='cuda'
 )

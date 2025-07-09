@@ -8,7 +8,7 @@ model = YOLO('runs/detect/yolo11n_cucumber_detection/weights/best.pt')
 MM_PER_PIXEL = 0.5 # 仮の値。実際の環境で計測・調整が必要
 
 # 画像で推論を実行
-image_path = r'C:\Users\y0808\train2\IMG_1647.jpg'
+image_path = r"C:\Users\y0808\train\IMG_1550.jpg"
 results = model.predict(source=image_path, conf=0.25)
 
 # 結果の処理
