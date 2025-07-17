@@ -1,0 +1,1 @@
+'runs/detect/yolo11n_cucumber_detection/weights/best.pt'
